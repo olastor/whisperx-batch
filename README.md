@@ -41,6 +41,8 @@ Possible future improvements:
 - Original whisperX params should work the same, but it was not verified for all options. Diarization was not tested yet, for example. 
 
 ```bash
+git clone git@github.com:olastor/whisperx-batch.git
+cd whisperx-batch/
 uv sync
 export TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD=true # see https://github.com/m-bain/whisperX/issues/1304
 
